@@ -1,0 +1,140 @@
+.name {
+    float:left;
+    color: black;
+    font-size: 40px;
+    font-family: 'Raleway', sans serif;
+}
+.w-bar {
+    display: block;
+    float: right;
+    font-size: 40px;
+    font-family: 'Raleway', sans serif;
+    color: black;
+}
+a, a:visited {
+    color: black;
+}
+header {
+    background-color: rgb(248, 251, 250);
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: 0.5em 1em;
+    box-shadow: 0 2px 4px -2px black;
+    border-radius: 5px;
+}
+body {
+    background-image: url(https://ssl.tzoo-img.com/images/blog/2021/8/25/10_-_thi-lor-su-waterfall-shutterstock_1719436420.jpg?width=812&spr=1.5);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: auto;
+    max-width: 960px;
+}
+h1 {
+    font-size: 35px;
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 0 0 3px #120101;
+}
+h2 {
+    font-size: 25px;
+    font-weight: 100;
+    font-style: bold;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 0 0 3px #120101;
+}
+* {
+    box-sizing: border-box;
+}
+h1 { 
+    padding-top: 80px;
+    float: left;
+}
+h2 {
+    padding-top: 200px;
+}
+.quote {
+    font-family: cursive;
+    font-weight:100;
+    color: #eee;
+    text-shadow: 1px 1px 2px black;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+}
+main {
+    min-height: 100vh;
+    padding: 64px 24px 94px;
+    color: #eee;
+    font-family: 'Open Sans', sans-serif    
+}
+main {
+    display: block;
+}
+footer a {
+    margin-right: 64px;
+    text-decoration: none;
+}
+* {
+    box-sizing: border-box;
+}
+
+footer {
+    box-sizing: border-box;
+    background-color: #eee;
+    border-radius: 5px;
+    position: fixed;
+    height: 64px;
+    padding: 16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    box-shadow: 0 -2px 4px -2px black;
+    display: block;
+}
+.media-link {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 30px
+}
+section img {
+    height: 250px;
+    margin-top: 80px;
+    border-color: rgb(231, 107, 87);
+    border-style: solid;
+    border-width: 10px;
+    float: left;
+}
+p {
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 60px;
+    font-size: 25px;
+    font-family: 'Raleway', sans;
+    text-shadow: 1px 1px 4px black;
+}
+.mymasterpieces {
+    margin-top: 80px;
+    text-align: center;
+    font-size: xxx-large;
+    text-shadow: 1px 1px 40px black;
+    font-family: 'Raleway', sans-serif;
+}
+li {
+    padding-top: 150px;
+    font-size: xx-large;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 8px 8px 8px #120101;
+    text-decoration: 2px underline #eee;
+}
+.comingsoon {
+    height: 180px;
+    width: 350px;
+    margin-top: 20px;
+    margin-left: 270px;
+    border-radius: 100%;
+    border:  7px solid rgb(219, 60, 142);
+    
+}
