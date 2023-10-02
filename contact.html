@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- styles for all pages -->
+    <link rel="stylesheet" href="style.css">
+    <script src="./javascript.js"></script>
+</head>
+<body>
+    <header>
+        <div class="name">Candace Perry</div>
+        <nav class="w-bar w-black">
+            <a href="./index.html" class="w-button w-bar-item">HOME</a>
+            <a href="./about.html" class="w-button w-bar-item">ABOUT</a>
+            <a href="./portfolio.html" class="w-button w-bar-item">PORTFOLIO</a>
+            <a href="./contact.html" class="w-button w-bar-item">CONTACT</a>
+        </nav>
+    </header>
+    <main>
+    <div class="contactmessage">If you would like to contact me, please fill out<br>
+        the form below!</div>
+    </main>
+    <div class="grid-container">
+        <form action="actions_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" name="phonenumber" placeholder="Your home/cell number..">
+
+            <label for="message">Your Message</label>
+            <textarea id="messages" name="yourmessage" placeholder="Write something.."
+            style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+
+    
+</body>
+</html>
